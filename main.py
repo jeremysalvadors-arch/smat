@@ -8,7 +8,7 @@ from database import engine, get_db
 # CRITICAL: CREACIÓN DE LA BASE DE DATOS Y TABLAS
 # Esta línea busca el archivo 'smat.db' y crea las tablas
 # definidas en models.py si es que aún no existen.
-# ==========================================================
+# ===================================================
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="SMAT Persistente")
