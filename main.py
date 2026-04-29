@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import models
 from database import engine, get_db
 
-# ==========================================================
+# ===================================================
 # CRITICAL: CREACIÓN DE LA BASE DE DATOS Y TABLAS
 # Esta línea busca el archivo 'smat.db' y crea las tablas
 # definidas en models.py si es que aún no existen.
@@ -48,3 +48,4 @@ estacion_id=lectura.estacion_id)
 	db.add(nueva_lectura)
 	db.commit()
 	return {"status": "Lectura guardada en DB"}
+
