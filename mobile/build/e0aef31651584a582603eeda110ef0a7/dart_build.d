@@ -1,0 +1,1 @@
+ /home/fisi-linux/smat-ecosistema-2026/mobile/build/e0aef31651584a582603eeda110ef0a7/dart_build_result.json: 
